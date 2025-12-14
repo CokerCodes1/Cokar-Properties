@@ -1,0 +1,261 @@
+/* ================= ABOUT HERO ================= */
+.about-hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.4)
+  );
+  z-index: 2;
+}
+
+.about-hero-glass {
+  position: relative;
+  z-index: 3;
+  max-width: 800px;
+  padding: 55px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+  text-align: center;
+  color: #fff;
+}
+
+@supports (backdrop-filter: blur(18px)) {
+  .about-hero-glass {
+    backdrop-filter: blur(18px);
+  }
+}
+
+.about-hero-glass h1 {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+}
+
+.about-hero-glass h1 span {
+  color: #e9d5ff;
+}
+
+.about-hero-glass p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  opacity: 0.95;
+}
+
+.about-hero-cta {
+  padding: 16px 45px;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #6a0dad, #8e2de2);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.about-hero-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+/* ================= WHO WE ARE ================= */
+.about-section {
+  padding: 90px 20px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-text {
+  max-width: 650px;
+  margin-bottom: 60px;
+}
+
+.about-text h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  margin-bottom: 16px;
+  opacity: 0.9;
+}
+
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.about-card {
+  padding: 35px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+@supports (backdrop-filter: blur(14px)) {
+  .about-card {
+    backdrop-filter: blur(14px);
+  }
+}
+
+.about-card i {
+  font-size: 2.6rem;
+  color: #8e2de2;
+  margin-bottom: 18px;
+}
+
+.about-card h3 {
+  margin-bottom: 12px;
+}
+
+.about-card p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-glass h1 {
+    font-size: 2.4rem;
+  }
+}
+
+.mission-vision,
+.core-values,
+.company-journey,
+.leadership,
+.trust-section {
+  padding: 90px 20px;
+}
+
+.mv-container,
+.values-grid,
+.team-grid,
+.trust-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  gap: 30px;
+}
+
+.mv-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.values-grid,
+.trust-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.team-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mv-card,
+.value-card,
+.team-card,
+.trust-card {
+  padding: 35px;
+  border-radius: 24px;
+  background: rgba(255,255,255,0.12);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+@supports (backdrop-filter: blur(14px)) {
+  .mv-card,
+  .value-card,
+  .team-card,
+  .trust-card {
+    backdrop-filter: blur(14px);
+  }
+}
+
+.team-card img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+  .mv-container,
+  .values-grid,
+  .team-grid,
+  .trust-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+/* JOURNEY SECTION */
+.company-journey {
+  background: linear-gradient(135deg, #2b145c, #1a0f3d);
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.company-journey .section-title {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 60px;
+}
+
+.timeline {
+  max-width: 900px;
+  margin: auto;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.timeline-icon {
+  width: 60px;
+  height: 60px;
+  background: #d4af37;
+  color: #2b145c;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.4rem;
+}
+
+.timeline-content {
+  padding: 25px;
+}

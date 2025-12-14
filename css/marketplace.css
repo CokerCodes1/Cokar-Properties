@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f7f7fb;
+}
+
+/* ================= MARKET HERO ================= */
+.market-hero {
+  position: relative;
+  height: 90vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.market-hero .hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.market-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.4)
+  );
+  z-index: 2;
+}
+
+.market-hero .hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 900px;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.market-hero h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.market-hero h1 span {
+  color: #e0b3ff;
+}
+
+.market-hero p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin-bottom: 35px;
+}
+
+/* SEARCH BAR */
+.hero-search {
+  display: flex;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 14px;
+  border-radius: 50px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.hero-search select,
+.hero-search input {
+  border: none;
+  outline: none;
+  padding: 14px 18px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.hero-search button {
+  border: none;
+  outline: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #6a0dad, #8e2de2);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-search button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .market-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-search {
+    flex-direction: column;
+    border-radius: 25px;
+  }
+
+  .hero-search button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* SECTIONS */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #6a0dad;
+  margin-bottom: 25px;
+}
+
+/* GRID */
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* ITEM */
+.market-item {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.market-item:hover {
+  transform: translateY(-5px);
+}
+
+.market-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* TAG */
+.tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 6px 14px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.tag.new { background: #28a745; }
+.tag.hot { background: #e63946; }
+.tag.featured { background: #6a0dad; }
+
+/* INFO */
+.item-info {
+  padding: 20px;
+}
+
+.price {
+  color: #ff4d9d;
+  font-weight: 600;
+  margin: 10px 0 15px;
+}
+
+/* BUTTONS */
+.item-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #6a0dad;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+}
+/* ================= CATEGORY FEATURES ================= */
+.category-features {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.feature-box {
+  background: linear-gradient(135deg, #6a0dad, #8e2de2);
+  color: #fff;
+  border-radius: 18px;
+  padding: 30px 20px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.2);
+}
+
+.feature-box i {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.feature-box p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 18px;
+}
+
+.feature-btn {
+  display: inline-block;
+  padding: 10px 22px;
+  background: #fff;
+  color: #6a0dad;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .feature-box {
+    padding: 25px 18px;
+  }
+}
+
+.floating-buttons {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 9999;
+}
+
+.float-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #25D366;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    transition: 0.3s;
+}
+
+.float-btn .icon {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.call-btn {
+    background: #1DA1F2;
+}
+
+.call-btn .icon {
+    font-size: 28px;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+/* =========== WHATSAPP POPUP =========== */
+.whatsapp-popup {
+    position: fixed;
+    bottom: 95px;
+    right: 25px;
+    width: 280px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.2);
+    transform: scale(0);
+    transform-origin: bottom right;
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.whatsapp-popup.show {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.popup-header {
+    background: #25D366;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-header button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.popup-body {
+    padding: 15px;
+}
+
+.popup-body p {
+    margin: 0 0 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.chat-now-btn {
+    display: block;
+    margin-top: 12px;
+    background: #25D366;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.chat-now-btn:hover {
+    opacity: 0.85;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    .whatsapp-popup {
+        width: 90%;
+        right: 5%;
+    }
+
+    .float-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .float-btn .icon {
+        font-size: 22px;
+    }
+}

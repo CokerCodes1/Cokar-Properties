@@ -1,0 +1,258 @@
+/* ================= HOME HERO ================= */
+.home-hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-hero .hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.home-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.4)
+  );
+  z-index: 2;
+}
+
+.hero-glass {
+  position: relative;
+  z-index: 3;
+  max-width: 850px;
+  padding: 50px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-glass h1 {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-glass h1 span {
+  color: #e9d5ff;
+}
+
+.hero-glass p {
+  font-size: 1.1rem;
+  margin-bottom: 35px;
+  opacity: 0.95;
+}
+
+.hero-cta {
+  display: inline-block;
+  padding: 16px 45px;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #6a0dad, #8e2de2);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+
+/* ================= FLOATING BUTTONS ================= */
+.floating-actions {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 999;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  animation: bounce 2s infinite;
+}
+
+.whatsapp-btn {
+  background: #25d366;
+}
+
+.phone-btn {
+  background: #6a0dad;
+}
+
+.action-btn i {
+  font-size: 1.2rem;
+}
+
+/* ================= WHATSAPP POPUP ================= */
+.whatsapp-popup {
+  position: fixed;
+  bottom: 110px;
+  right: 25px;
+  width: 280px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  display: none;
+  z-index: 999;
+}
+
+.popup-header {
+  background: #25d366;
+  color: #fff;
+  padding: 14px;
+  border-radius: 18px 18px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-body {
+  padding: 16px;
+  font-size: 0.9rem;
+}
+
+.popup-action {
+  display: block;
+  margin: 12px;
+  padding: 12px;
+  background: #25d366;
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+/* ================= ANIMATION ================= */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .hero-glass {
+    padding: 35px 25px;
+  }
+
+  .hero-glass h1 {
+    font-size: 2.3rem;
+  }
+
+  .action-btn span {
+    display: none;
+  }
+}
+
+/* ================= STATS SECTION ================= */
+.stats-section {
+  position: relative;
+  margin-top: 40px; /* prevents hero overlap */
+  padding: 40px 20px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+.stats-glass {
+  max-width: 1100px;
+  width: 100%;
+  padding: 45px;
+  border-radius: 30px;
+  background: #6a0dad;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.4);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  color: #fff;
+}
+
+/* Apply blur ONLY if supported */
+@supports (backdrop-filter: blur(18px)) {
+  .stats-glass {
+    backdrop-filter: blur(18px);
+  }
+}
+
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-box h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  background: #6a0dad;
+}
+
+.stat-box p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* ================= STATS CTA ================= */
+.stats-cta {
+  margin-top: 35px;
+  padding: 14px 45px;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #6a0dad, #8e2de2);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.stats-cta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+  .stats-glass {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-section {
+    padding-bottom: 70px;
+  }
+
+  .stats-glass {
+    grid-template-columns: 1fr;
+    padding: 35px 25px;
+  }
+
+  .stat-box h2 {
+    font-size: 2.4rem;
+  }
+}

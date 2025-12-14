@@ -1,0 +1,277 @@
+/* ==========================
+   PROPERTY DETAILS PAGE
+========================== */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background: #6a0dad;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* ==========================
+   MAIN SECTION
+========================== */
+.property-details {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ==========================
+   CAROUSEL
+========================== */
+.carousel {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.carousel img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Swiper buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #6a0dad;
+}
+
+.swiper-pagination-bullet {
+  background: #6a0dad;
+}
+
+/* ==========================
+   FLOOR PLANS
+========================== */
+.floor-plans {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.floor-plans h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.floor-plans img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ==========================
+   AMENITIES
+========================== */
+.amenities {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.amenities h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.amenities ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.amenities ul li {
+  background: #6a0dad;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+/* ==========================
+   MAP
+========================== */
+.map {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.map h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.map iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ==========================
+   CONTACT FORM
+========================== */
+.contact-agent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-agent h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.contact-agent form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-agent input,
+.contact-agent textarea {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-agent textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-agent button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  background: #6a0dad;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-agent button:hover {
+  background: #520d8b;
+}
+
+/* ==========================
+   VIRTUAL TOUR
+========================== */
+.virtual-tour {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.virtual-tour h2 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+}
+
+.virtual-tour iframe {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+@media (max-width: 1024px) {
+  .carousel img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .property-details {
+    padding: 20px 10px;
+  }
+
+  .carousel img {
+    height: 250px;
+  }
+
+  .floor-plans img {
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 24px;
+  }
+
+  .carousel img {
+    height: 200px;
+  }
+
+  .amenities ul li {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .contact-agent button {
+    font-size: 14px;
+  }
+
+  .virtual-tour iframe {
+    height: 250px;
+  }
+}
+
+.back-to-listings {
+  margin: 20px 0 30px 0;
+  position: sticky;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #6a0dad;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #4e078e;
+}
+
+@media (max-width: 600px) {
+  .back-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

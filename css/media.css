@@ -1,0 +1,198 @@
+/*the mediaquery css file must be under your main stylesheet*/
+
+/* Nest Hub Max */
+@media screen and (max-width: 1280px) {
+    .autotext h1{
+        margin-top: 15%;
+    }
+}
+
+
+/* Nest Hub */
+@media screen and (max-width: 1024px) {
+    .link1{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+}
+/* Surface Pro 7 */
+@media screen and (max-width: 912px) {
+    .autotext h1{
+        margin-top: 20%;
+    }
+    .my-testimonial-slider .mts-image-wrapper {
+        width: 200px;
+        height: 200px;
+    }
+    .my-testimonial-slider .mts-testimonial-text {
+        font-size: 1rem;
+    }
+    .my-testimonial-slider .mts-client-name {
+        font-weight: lighter;
+        font-size: medium;
+    }
+}
+
+/* For iPad Air */
+@media screen and (max-width: 820px) {
+    .autotext h1{
+        margin-top: 25%;
+    }
+}
+
+/* For iPad Mini */
+@media screen and (max-width: 768px) {
+    .descart{
+        flex-direction: column;
+    }
+    .descart div{
+        width: 100%;
+    }
+    .plusart{
+        flex-direction: column;
+    }
+    .plusart div{
+        width: 100%;
+    }
+    .my-testimonial-slider .mts-testimonial-text {
+        font-size: 0.8rem;
+    }
+}
+/* For Surface Duo */
+@media screen and (max-width: 540px) {
+    .hero-btn{
+        width: 40%;
+    }
+    #slider{
+        margin-bottom: 15%;
+    }
+    .hamburger{
+        width: 17% !important;
+    }
+    .listings h3{
+        font-size: 2rem !important;
+    }
+    .autotext h1{
+        margin-top: 15% !important;
+        font-size: 3.5rem;
+    }
+    #ready{
+        font-size: 2rem;
+    }
+    .wrapper{
+        margin-bottom: 10%;
+    }
+    .listedhomes{
+        flex-direction: column;
+        margin-bottom: 10%;
+    }
+    .listedhomes div{
+        width: 100%;
+    }
+    #footerwrap{
+        flex-direction: column;
+    }
+    #footerwrap div{
+        width: 100%;
+    }
+    .product-wrapper{
+        flex-direction: column;
+        border: 1px solid black;
+        padding-bottom: 2%;
+        margin: 3%;
+    }
+    .product-wrapper div{
+        width: 100%;
+    }
+    .product-wrapper1{
+        flex-direction: column;
+        border: 1px solid black;
+        padding-bottom: 2%;
+        margin: 3%;
+    }
+    .product-wrapper1 div{
+        width: 100%;
+    }
+    .product-wrapper2{
+        flex-direction: column;
+        border: 1px solid black;
+        padding-bottom: 2%;
+        margin: 3%;
+    }
+    .product-wrapper2 div{
+        width: 100%;
+    }
+    .my-testimonial-slider .mts-testimonial-text {
+        font-size: 0.6rem;
+    }
+    .plusart div{
+        margin-bottom: 15%;
+    }
+    .product-wrapper{
+        margin-bottom: 15%;
+    }
+    .product-wrapper1{
+        margin-bottom: 15%;
+    }
+    .product-wrapper2{
+        margin-bottom: 15%;
+    }
+    #wrapper{
+        margin-bottom: 15%;
+    }
+    .hero-content h1{
+        margin-bottom: 20%;
+    }
+    .hero-subtitle{
+        margin-bottom: 15%;
+    }
+}
+
+/* iPhone XR */
+@media screen and (max-width: 414px) {
+    .logo a{
+        font-size: 1.9rem;
+    }
+    .hero-btn{
+        width: 40% !important;
+    }
+    .my-testimonial-slider .mts-testimonial-text {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .autotext h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    
+}
+
+/* For iPhone 12 Pro */
+@media screen and (max-width: 390px) {
+    
+}
+
+@media screen and (max-width: 375px) {
+    
+}
+
+@media screen and (max-width: 360px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+}
+
+@media screen and (max-width: 280px) {
+    
+}

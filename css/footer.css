@@ -1,0 +1,196 @@
+#mission{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+#myfooter{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 4%;
+}
+#footerwrap{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.footerinfo1{
+    width: 31.33%;
+    margin: 1%;
+    padding: 2%;
+    color: white !important;
+}
+.footerinfo2{
+    width: 31.33%;
+    margin: 1%;
+    padding: 2%;
+    color: white !important;
+}
+.footerinfo3{
+    width: 31.33%;
+    margin: 1%;
+    padding: 2%;
+    color: white !important;
+}
+.footerinfo1 p{
+    width: 50%;
+}
+.footerinfo1 a{
+    color: white !important;
+}
+.footerinfo1 a:hover{
+    color: slateblue !important;
+    cursor: pointer;
+}
+.footerinfo2 p{
+    width: 30%;
+}
+.footerinfo2 a{
+    color: white !important;
+}
+.footerinfo2 a:hover{
+    color: slateblue !important;
+    cursor: pointer;
+}
+.footerinfo3 a:hover{
+    color: slateblue !important;
+    cursor: pointer;
+}
+.footerinfo3 a{
+    color: white !important;
+}
+.footerinfo1 a{
+    color: white !important;
+}
+#popcann{
+    width: 50%;
+    height: 50%;
+    right: 3%;
+    position: fixed;
+    display: none;
+    padding: 2%;
+    top: 50%;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: aliceblue;
+}
+#Xconn{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#popcan1{
+    width: 50%;
+    height: 50%;
+    right: 3%;
+    position: fixed;
+    display: none;
+    padding: 2%;
+    top: 50%;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: aliceblue;
+}
+#Xcon1{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#popcan2{
+    width: 50%;
+    height: 50%;
+    right: 3%;
+    position: fixed;
+    display: none;
+    padding: 2%;
+    top: 50%;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: aliceblue;
+}
+#Xcon2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#popcan3{
+    width: 50%;
+    height: 50%;
+    right: 3%;
+    position: fixed;
+    display: none;
+    padding: 2%;
+    top: 50%;
+    background-color: slateblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: aliceblue;
+}
+#Xcon3{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.icons{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+}
+.icons img{
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 60%;
+}

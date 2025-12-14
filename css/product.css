@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+}
+
+/* product styling */
+#products{
+    width: 100%;
+    background-color: white;
+    padding: 4%;
+    margin-bottom: 7% !important;
+}
+.product-wrapper{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke !important;
+    color: black;
+    margin-bottom: 10%;
+}
+.product-wrapper div{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.product-wrapper video{
+    width: 100%;
+}
+.product-btn{
+    padding: 1%;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgb(236, 234, 234);
+    padding: 2%;
+    background-color: #6a0dad;
+    border: none;
+}
+.product-btn:hover{
+    background: #520e8b;
+}
+.a{
+    text-decoration: none !important;
+    color: whitesmoke;
+}
+.product-wrapper1{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke !important;
+    color: black;
+    margin-bottom: 10%;
+}
+.product-wrapper1 div{
+    width: 50%;
+    text-align: center;
+}
+.product-wrapper1 video{
+    width: 100%;
+}
+.product-wrapper1 img{
+    width: 100%;
+}
+
+.product-wrapper2{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke !important;
+    color: black;
+    margin-bottom: 10%;
+}
+.product-wrapper2 div{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.product-wrapper2 video{
+    width: 100%;
+}
+
+#listings{
+  width: 100%;
+  padding: 2%;
+  margin-bottom: 10;
+}
+.listedhomes{
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home1{
+  width: 98%;
+  margin: 1%;
+  background-color: whitesmoke;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.home1 img{
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 10px;
+}
+.Inquire{
+  background: #6a0dad;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  width: 150px;
+  text-align: center;
+  padding: 1.5%;
+}
+.home1:hover{
+  font-size: larger;
+  padding: 0.1%;
+  background-color: #f4f7fc;
+}

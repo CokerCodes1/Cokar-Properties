@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+}
+.hamburger{
+    width: 7% !important;
+    margin: 1%;
+    margin-left: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#dropdownBox{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: +100;
+}
+#navcon-mobile{
+    width: 100%;
+    padding: 2%;
+}
+#navcon-mobile li{
+    width: 100%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navcon-mobile li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none !important;
+}
+#navcon-mobile li a:hover{
+  color: chocolate;
+}
+#exitIcon{
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    position: absolute;
+    top: 90%;
+    right: 80%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#myheader{
+    width: 100%;
+    text-decoration: none !important;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    z-index: +100;
+}
+#mynav{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+    width: 15%;
+    margin: 1%;
+}
+.logo a{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #6a0dad;
+    text-decoration: none;
+}
+.link1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.link1 li{
+    width: 23%;
+    margin: 1%;
+}
+.link1 a{
+    color: #6a0dad;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.link1 a:hover{
+    text-decoration: underline;
+}
+.bassey{
+    width: 20%;
+    margin-left: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bassey button{
+    padding: 4%;
+    margin: 1%;
+    border-radius: 15px;
+    background-color: #6a0dad;
+    border: 1px solid purple;
+    margin-left: auto;
+}
+.bassey button:hover{
+    background-color: white;
+    transition: 1s ease-in;
+}
+.bassey a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.bassey a:hover{
+    color: black;
+    transition: 2s ease;
+}
