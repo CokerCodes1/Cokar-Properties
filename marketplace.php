@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cokar Marketplace</title>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- External CSS -->
+   <link rel="stylesheet" href="css/nav.css">
+   <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/marketplace.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <section id="dropdownBox" class="animate__animated">
+             <div id="exitIcon">X</div>
+
+             <ul id="navcon-mobile">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="about.html">About Us</a></li>
+
+              
+             </ul>
+    </section>
+  
+    <header id="myheader">
+        <nav id="mynav">
+            <div class="logo">
+                <a href="index.php">Cokar Properties</a>
+            </div>
+
+            <ul class="link1">
+                <li><a href="services.php">Services</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="marketplace.php">Marketplace</a></li>
+                <li><a href="about.php">About Us</a></li>
+            </ul>
+
+            <div class="bassey">
+            <button class="nav-btn"><a href="ai.php">Cokar AI</a></button>
+            </div>
+            <img src="img/icons8-drag-list-down-48[1].png" alt="hamburger" class="hamburger">
+        </nav>
+        <hr>
+    </header>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="market-hero">
+  <!-- Background image in HTML -->
+  <img src="img/vecteezy_black-friday-shopping-frenzy-customers-eagerly-filling_70423680.jpg" alt="Cokar Marketplace" class="hero-bg">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>
+      Everything You Need for<br>
+      <span>Your Home & Property</span>
+    </h1>
+
+    <p>
+      Cokar Marketplace brings together lands, homes, furniture,
+      electronics and essential property items — all in one trusted place.
+    </p>
+
+    <!-- SEARCH BAR (UI ONLY – PHP ready) -->
+    <form class="hero-search" action="#" method="get">
+      <select name="category">
+        <option value="">All Categories</option>
+        <option value="land">Land</option>
+        <option value="houses">Houses</option>
+        <option value="furniture">Furniture</option>
+        <option value="electronics">Electronics</option>
+        <option value="kitchen">Kitchen</option>
+      </select>
+
+      <input
+        type="text"
+        name="keyword"
+        placeholder="Search by location, item name or keyword"
+      >
+
+      <button type="submit" onclick="alert('View curated marketplace items below based on your search!')">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        Search
+      </button>
+    </form>
+  </div>
+</section>
+
+
+<!-- ================= CATEGORY FEATURES ================= -->
+<section class="category-features">
+  <div class="features-container">
+
+    <a href="#land" class="feature-box">
+      <i class="fa-solid fa-tree"></i>
+      <h3>Land</h3>
+      <p>Residential & commercial plots</p>
+      <span class="feature-btn">Explore</span>
+    </a>
+
+    <a href="#houses" class="feature-box">
+      <i class="fa-solid fa-house"></i>
+      <h3>Houses</h3>
+      <p>Homes & apartments</p>
+      <span class="feature-btn">Explore</span>
+    </a>
+
+    <a href="#furniture" class="feature-box">
+      <i class="fa-solid fa-couch"></i>
+      <h3>Furniture</h3>
+      <p>Luxury & modern furniture</p>
+      <span class="feature-btn">Explore</span>
+    </a>
+
+    <a href="#electronics" class="feature-box">
+      <i class="fa-solid fa-tv"></i>
+      <h3>Electronics</h3>
+      <p>Smart home electronics</p>
+      <span class="feature-btn">Explore</span>
+    </a>
+
+    <a href="#kitchen" class="feature-box">
+      <i class="fa-solid fa-utensils"></i>
+      <h3>Kitchen</h3>
+      <p>Cookware & appliances</p>
+      <span class="feature-btn">Explore</span>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ================= CATEGORY: LAND ================= -->
+
+<div class="category-section" id="land">
+  <h2>Land</h2>
+
+  <!-- Land 1 -->
+  <div class="market-item"
+       data-id="land-1"
+       data-title="Prime Residential Land"
+       data-category="Land"
+       data-price="25000000"
+       data-image="img/house-8458547.jpg">
+    <img src="img/house-8458547.jpg" alt="Prime Residential Land">
+    <div class="item-content">
+      <h3>Prime Residential Land</h3>
+      <p class="price">₦25,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Land 2 -->
+  <div class="market-item"
+       data-id="land-2"
+       data-title="Commercial Plot"
+       data-category="Land"
+       data-price="42000000"
+       data-image="images/land2.jpg">
+    <img src="images/land2.jpg" alt="Commercial Plot">
+    <div class="item-content">
+      <h3>Commercial Plot</h3>
+      <p class="price">₦42,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Land 3 -->
+  <div class="market-item"
+       data-id="land-3"
+       data-title="Estate Land"
+       data-category="Land"
+       data-price="30000000"
+       data-image="images/land3.jpg">
+    <img src="images/land3.jpg" alt="Estate Land">
+    <div class="item-content">
+      <h3>Estate Land</h3>
+      <p class="price">₦30,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Land 4 -->
+  <div class="market-item"
+       data-id="land-4"
+       data-title="Waterfront Land"
+       data-category="Land"
+       data-price="65000000"
+       data-image="images/land4.jpg">
+    <img src="images/land4.jpg" alt="Waterfront Land">
+    <div class="item-content">
+      <h3>Waterfront Land</h3>
+      <p class="price">₦65,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- ================= CATEGORY: HOUSES ================= -->
+<div class="category-section" id="houses">
+  <h2>Houses</h2>
+
+  <div class="market-item" data-id="house-1" data-title="Luxury Duplex" data-category="House" data-price="120000000" data-image="images/house1.jpg">
+    <img src="images/house1.jpg">
+    <div class="item-content">
+      <h3>Luxury Duplex</h3>
+      <p class="price">₦120,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-item" data-id="house-2" data-title="4 Bedroom Terrace" data-category="House" data-price="85000000" data-image="images/house2.jpg">
+    <img src="images/house2.jpg">
+    <div class="item-content">
+      <h3>4 Bedroom Terrace</h3>
+      <p class="price">₦85,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-item" data-id="house-3" data-title="Smart Family Home" data-category="House" data-price="95000000" data-image="images/house3.jpg">
+    <img src="images/house3.jpg">
+    <div class="item-content">
+      <h3>Smart Family Home</h3>
+      <p class="price">₦95,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-item" data-id="house-4" data-title="Contemporary Bungalow" data-category="House" data-price="60000000" data-image="images/house4.jpg">
+    <img src="images/house4.jpg">
+    <div class="item-content">
+      <h3>Contemporary Bungalow</h3>
+      <p class="price">₦60,000,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= CATEGORY: FURNITURE ================= -->
+<div class="category-section" id="furniture">
+  <h2>Furniture</h2>
+
+  <div class="market-item" data-id="furn-1" data-title="Luxury Sofa Set" data-category="Furniture" data-price="4500000" data-image="images/furn1.jpg">
+    <img src="images/furn1.jpg">
+    <div class="item-content">
+      <h3>Luxury Sofa Set</h3>
+      <p class="price">₦4,500,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-item" data-id="furn-2" data-title="Executive Dining Set" data-category="Furniture" data-price="3200000" data-image="images/furn2.jpg">
+    <img src="images/furn2.jpg">
+    <div class="item-content">
+      <h3>Executive Dining Set</h3>
+      <p class="price">₦3,200,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-item" data-id="furn-3" data-title="Modern Wardrobe" data-category="Furniture" data-price="2800000" data-image="images/furn3.jpg">
+    <img src="images/furn3.jpg">
+    <div class="item-content">
+      <h3>Modern Wardrobe</h3>
+      <p class="price">₦2,800,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="market-item" data-id="furn-4" data-title="Luxury Bed Frame" data-category="Furniture" data-price="3800000" data-image="images/furn4.jpg">
+    <img src="images/furn4.jpg">
+    <div class="item-content">
+      <h3>Luxury Bed Frame</h3>
+      <p class="price">₦3,800,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ================= CATEGORY: ELECTRONICS ================= -->
+<div class="category-section" id="electronics">
+  <h2>Electronics</h2>
+
+  <!-- Electronics 1 -->
+  <div class="market-item" data-id="elec-1" data-title="Smart TV 85 inch" data-category="Electronics" data-price="5200000" data-image="images/elec1.jpg">
+    <img src="images/elec1.jpg" alt="Smart TV 85 inch">
+    <div class="item-content">
+      <h3>Smart TV 85 inch</h3>
+      <p class="price">₦5,200,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Electronics 2 -->
+  <div class="market-item" data-id="elec-2" data-title="Home Security System" data-category="Electronics" data-price="1800000" data-image="images/elec2.jpg">
+    <img src="images/elec2.jpg" alt="Home Security System">
+    <div class="item-content">
+      <h3>Home Security System</h3>
+      <p class="price">₦1,800,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Electronics 3 -->
+  <div class="market-item" data-id="elec-3" data-title="Smart AC System" data-category="Electronics" data-price="2600000" data-image="images/elec3.jpg">
+    <img src="images/elec3.jpg" alt="Smart AC System">
+    <div class="item-content">
+      <h3>Smart AC System</h3>
+      <p class="price">₦2,600,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Electronics 4 -->
+  <div class="market-item" data-id="elec-4" data-title="Solar Power Kit" data-category="Electronics" data-price="4800000" data-image="images/elec4.jpg">
+    <img src="images/elec4.jpg" alt="Solar Power Kit">
+    <div class="item-content">
+      <h3>Solar Power Kit</h3>
+      <p class="price">₦4,800,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="category-section" id="kitchen">
+  <h2>Kitchen</h2>
+
+  <!-- Kitchen 1 -->
+  <div class="market-item" data-id="kit-1" data-title="Smart Cooker Set" data-category="Kitchen" data-price="950000" data-image="images/kit1.jpg">
+    <img src="images/kit1.jpg" alt="Smart Cooker Set">
+    <div class="item-content">
+      <h3>Smart Cooker Set</h3>
+      <p class="price">₦950,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kitchen 2 -->
+  <div class="market-item" data-id="kit-2" data-title="Premium Blender" data-category="Kitchen" data-price="650000" data-image="images/kit2.jpg">
+    <img src="images/kit2.jpg" alt="Premium Blender">
+    <div class="item-content">
+      <h3>Premium Blender</h3>
+      <p class="price">₦650,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kitchen 3 -->
+  <div class="market-item" data-id="kit-3" data-title="Luxury Cookware Set" data-category="Kitchen" data-price="1200000" data-image="images/kit3.jpg">
+    <img src="images/kit3.jpg" alt="Luxury Cookware Set">
+    <div class="item-content">
+      <h3>Luxury Cookware Set</h3>
+      <p class="price">₦1,200,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kitchen 4 -->
+  <div class="market-item" data-id="kit-4" data-title="Smart Refrigerator" data-category="Kitchen" data-price="3500000" data-image="images/kit4.jpg">
+    <img src="images/kit4.jpg" alt="Smart Refrigerator">
+    <div class="item-content">
+      <h3>Smart Refrigerator</h3>
+      <p class="price">₦3,500,000</p>
+      <div class="item-actions">
+        <button class="view-item-btn">View Item</button>
+        <button class="add-to-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<center>
+  <button class="sell-btn"><a href="" class="sell-a">Sell Faster on Cokar Marketplace</a></button>
+</center>
+<br><br><br>
+
+  <footer id="myfooter">
+      <article id="footerwrap">
+        <div class="footerinfo1">
+             <p class="testi"> WHY US</p><br>
+             <p><a href="">Flat-Sharing</a></p><br>
+             <p><a href="">Co-office Space</a></p><br>
+             <p><a href="">Monthly Payments</a></p><br>
+             <p><a href="">Accomodation Loans</a></p><br>
+        </div>
+        <div class="footerinfo2">
+          <p class="testi"> COMPANY</p><br>
+             <p><a href="">About us</a></p><br>
+             <p><a href="">FAQs</a></p><br>
+             <p><a href="">Careers</a></p><br>
+             <p><a href="">Partnerships</a></p><br>
+        </div>
+        </div>
+        <div class="footerinfo3">
+          <p class="testi"> GET IN TOUCH</p><br>
+             <p><a href="">cokarproperties@gmail.com</a></p><br>
+             <p><a href="">09169019241</a></p><br>
+             <p>236, Ikwerre Road beside Civic Centre, Mile 4 Rumueme Port-Harcourt,
+                Rivers State, Nigeria.
+            </p><br>
+        </div>
+        </div>
+      </article>
+      <hr>
+      <br><br>
+        <h2>@Cokar Properties Inc, 2025.</h2><br><br>
+
+      <div class="icons">
+        <a href=""><img src="img/icons8-linkedin-50.png" alt=""></a><br>
+        <a href=""><img src="img/icons8-twitter-50[1].png" alt=""></a><br>
+        <a href=""><img src="img/icons8-facebook-50.png" alt=""></a><br>
+        <a href=""><img src="img/icons8-whatsapp.gif" alt=""></a>
+      </div>
+  </footer>
+
+
+  <!-- External JS -->
+   <script src="js/media.js"></script>
+  <script src="js/marketplace.js"></script>
+
+      <!-- FLOATING CONTACT BUTTONS -->
+<div class="floating-buttons">
+    <!-- WhatsApp Main Button -->
+    <div class="float-btn whatsapp-btn" id="whatsappMainBtn">
+        <span class="icon">💬</span>
+    </div>
+
+    <!-- Call Button -->
+    <a href="tel:+2348012345678" class="float-btn call-btn">
+        <span class="icon">📞</span>
+    </a>
+</div>
+
+<!-- WHATSAPP POPUP -->
+<div class="whatsapp-popup" id="whatsappPopup">
+    <div class="popup-header">
+        <span>Real Estate Support</span>
+        <button id="closePopup">✖</button>
+    </div>
+
+    <div class="popup-body">
+        <p>Hello 👋</p>
+        <p>How can we help you today?</p>
+
+        <a href="https://wa.me/2348012345678?text=Hello%2C%20I'm%20interested%20in%20one%20of%20your%20properties." 
+           target="_blank" 
+           class="chat-now-btn">
+            💬 Chat on WhatsApp
+        </a>
+    </div>
+</div>
+
+<script>
+    // Toggle popup
+    const mainBtn = document.getElementById("whatsappMainBtn");
+    const popup = document.getElementById("whatsappPopup");
+    const closePopup = document.getElementById("closePopup");
+
+    mainBtn.addEventListener("click", () => {
+        popup.classList.toggle("show");
+    });
+
+    closePopup.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+</script>
+
+
+
+<div class="view-modal" id="viewModal">
+  <div class="modal-content glass">
+    <span class="modal-close">&times;</span>
+
+    <h2 id="modalTitle"></h2>
+
+    <div class="modal-gallery">
+      <img id="modalImg1">
+      <img id="modalImg2">
+      <img id="modalImg3">
+    </div>
+
+    <p id="modalDescription"></p>
+<br><br>
+    <p class="modal-price" id="modalPrice"></p>
+<br>
+    <button class="modal-add-cart-btn">
+      <i class="fa-solid fa-cart-plus"></i> Add to Cart
+    </button>
+  </div>
+</div>
+
+
+<a href="payout.html" class="cart-float">
+  <i class="fas fa-shopping-cart"></i>
+  <span class="cart-count">0</span>
+</a>
+
+</body>
+</html>

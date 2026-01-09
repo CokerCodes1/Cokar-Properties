@@ -1,0 +1,510 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cokar Properties | Property Management made Easier, Smarter and Cheaper</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/ready.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/moving.css">
+    <link rel="stylesheet" href="css/testimonial.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ai.css">
+</head>
+<body>
+
+  <section id="dropdownBox" class="animate__animated">
+             <div id="exitIcon">X</div>
+
+             <ul id="navcon-mobile">
+                <li><a href="services.php">Services</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="marketplace.php">Marketplace</a></li>
+                <li><a href="about.php">About Us</a></li>
+
+              
+             </ul>
+    </section>
+  
+    <header id="myheader">
+        <nav id="mynav">
+            <div class="logo">
+                <a href="#">Cokar Properties</a>
+            </div>
+
+            <ul class="link1">
+                <li><a href="services.php">Services</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="marketplace.php">Marketplace</a></li>
+                <li><a href="about.php">About Us</a></li>
+            </ul>
+
+            <div class="bassey">
+            <button class="nav-btn"><a href="ai.php">Cokar AI</a></button>
+            </div>
+            <img src="img/icons8-drag-list-down-48[1].png" alt="hamburger" class="hamburger">
+        </nav>
+        <hr>
+    </header>
+    
+<!-- ================= HOME HERO SECTION ================= -->
+<section class="home-hero">
+  <!-- Background Image in HTML -->
+  <img src="img/set-designer-work-indoors.jpg" alt="Cokar Properties" class="hero-bg">
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-glass">
+    <h1>
+      Building Value.<br>
+      <span>Managing Properties. Creating Wealth.</span>
+    </h1>
+
+    <p>
+      Cokar Properties delivers premium real estate solutions — from property
+      management and sales to curated marketplace listings you can trust.
+    </p>
+
+    <a href="services.php" class="hero-cta">
+      Explore Our Services
+    </a>
+  </div>
+</section>
+
+<!-- ================= FLOATING ACTION BUTTONS ================= -->
+<div class="floating-actions">
+  <button class="action-btn whatsapp-btn" id="openWhatsapp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span>WhatsApp</span>
+  </button>
+
+  <a href="tel:+2348012345678" class="action-btn phone-btn">
+    <i class="fa-solid fa-phone"></i>
+    <span>Call</span>
+  </a>
+</div>
+
+<!-- ================= WHATSAPP CHAT POPUP ================= -->
+<div class="whatsapp-popup" id="whatsappPopup">
+  <div class="popup-header">
+    <h4>Chat with Cokar</h4>
+    <span id="closeWhatsapp">&times;</span>
+  </div>
+
+  <div class="popup-body">
+    <p style="color: black !important;">
+      Hello 👋  
+      How can we help you today?
+    </p>
+  </div>
+
+  <a
+    href="https://wa.me/2348012345678?text=Hello%2C%20I'm%20interested%20in%20your%20services."
+    target="_blank"
+    class="popup-action"
+  >
+    Start Chat
+  </a>
+</div>
+<br>
+    
+<!-- ================= STATS COUNTER SECTION ================= -->
+<section class="stats-section">
+  <div class="stats-glass">
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="320">0</h2>
+      <p>Properties Managed</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="95">0</h2>
+      <p>Client Satisfaction (%)</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="1200">0</h2>
+      <p>Successful Transactions</p>
+    </div>
+
+    <div class="stat-box">
+      <h2 class="counter" data-target="60">0</h2>
+      <p>Property Managers</p>
+    </div>
+
+  </div>
+
+  <a href="ai.php" class="stats-cta">
+    🤖 Explore AI Stats
+  </a>
+</section>
+
+
+
+    
+
+    <section id="products">
+        <article class="product-wrapper">
+            <div>
+                <video autoplay muted loop playsinline>
+                    <source src="video/167688-837428971.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div>
+                <h2>Rent a Property</h2><br>
+                <p>
+                    Find comfortable apartments, shops, office and co-working space conviniently and affordably
+                    on our platform.
+                </p>
+                
+                    <button class="product-btn">
+                    <a href="listings.php" class="a">Find Property</a>
+                </button>
+                
+            </div>
+        </article>
+
+        <article class="product-wrapper1">
+            <div> 
+              <img src="img/house-8458547.jpg" alt="a home and coins">
+            </div>
+            
+            <div>
+                
+                <h2>Make Your Property More Profitable</h2><br>
+                <p>
+                    Join the league of winning landlords that utilizes our platform to 
+                    list properties, verify tenants and collect rent automatically all for free.
+                </p>
+                
+                    <button class="product-btn">
+                    <a href="" class="a">List Property</a>
+                </button>
+
+            </div>
+            <hr>
+        </article>
+
+        <article class="product-wrapper2">
+            <div>
+
+                <video autoplay muted loop playsinline>
+                    <source src="video/55529-501275364.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                
+            </div>
+            
+            <div>
+
+                <h2>Become a Property Manager</h2><br> 
+                <p>
+                    Convert your neighbourhood into a stream of incoming by scouting and registering properties 
+                    around you with us and earn money instantly.
+                </p>
+                
+                <button class="product-btn">
+                    <a href="" class="a">Start Today</a>
+                </button>
+
+            </div>
+            <hr>
+        </article>
+    </section>
+
+    <section class="listings" id="listings">
+    <center>
+    <h3 style="color: #6a0dad; font-size: 2.5rem;">Freely explore Top-Notch, available and move-in ready properties</h3>
+    </center>
+  <article class="listedhomes">
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+   
+  </article>
+
+  <article class="listedhomes">
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+    
+  </article>
+
+  <article class="listedhomes">
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+
+    <div class="home1">
+      <img src="img/house-8458547.jpg" alt="a home"><br>
+      <h3>$300 / month</h3>
+      <p>3 Bed room flat</p>
+      <p>Rumueme Mile 4</p><br>
+      <a href="" class="Inquire">Rent Now</a>
+    </div>
+    
+  </article>
+</section>
+
+<center>
+  <a href="listings.php" class="Inquire">See More Properties</a>
+</center>
+<br><br><br>
+<div class="my-testimonial-slider">
+  <center>
+    <h3 style="color: #6a0dad;">What happy Clients have to say about Sheltar</h3>
+  </center>
+  <div class="mts-slides">
+    <!-- Slide 1 -->
+    <div class="mts-slide" data-index="0">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 1">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“I couldn’t be happier with my new home! From viewing to move-in, everything was smooth, stress-free, and the landlord was always responsive whenever I had a question. The place is well maintained, clean, and exactly as described. Highly recommend to anyone looking for a hassle-free renting experience”</p>
+          <div class="mts-star-rating">★★★★☆</div>
+          <div class="mts-client-name">Client 1</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="mts-slide" data-index="1">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 2">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 2.”</p>
+          <div class="mts-star-rating">★★★★★</div>
+          <div class="mts-client-name">Client 2</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="mts-slide" data-index="2">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src=img/house-8458547.jpg" alt="Client 3">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 3.”</p>
+          <div class="mts-star-rating">★★★☆☆</div>
+          <div class="mts-client-name">Client 3</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="mts-slide" data-index="3">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 4">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 4.”</p>
+          <div class="mts-star-rating">★★★★☆</div>
+          <div class="mts-client-name">Client 4</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="mts-slide" data-index="4">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 5">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 5.”</p>
+          <div class="mts-star-rating">★★★★★</div>
+          <div class="mts-client-name">Client 5</div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <button class="mts-control mts-control-prev" aria-label="Previous testimonial">&lt;</button>
+  <button class="mts-control mts-control-next" aria-label="Next testimonial">&gt;</button>
+</div>
+
+<section id="wrapper" data-aos="zoom-in-up">
+  <h3 style="color: #6a0dad;">Frequently Asked Question</h3>
+
+  <article id="accordion_wrapper" data-aos="zoom-in-up">
+      <div id="accordion_head">
+          <h2 id="title">How do I manage my property with Cokar Properties?</h2>
+          <span>+</span>
+      </div>
+      <div id="accordion_body">
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Fuga harum ad eligendi possimus sapiente nulla illo dolore
+              laudantium rerum vero blanditiis amet, itaque explicabo
+              odio, quas, minus animi libero quis!
+          </p>
+      </div>
+  </article>
+  <article id="accordion_wrapper" data-aos="zoom-in-up">
+      <div id="accordion_head">
+          <h2 id="title">How much do you charge for your rental service?</h2>
+          <span>+</span>
+      </div>
+      <div id="accordion_body">
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Fuga harum ad eligendi possimus sapiente nulla illo dolore
+              laudantium rerum vero blanditiis amet, itaque explicabo
+              odio, quas, minus animi libero quis!
+          </p>
+      </div>
+  </article>
+  <article id="accordion_wrapper" data-aos="zoom-in-up">
+      <div id="accordion_head">
+          <h2 id="title">Can i pay rent monthly through Cokar Properties?</h2>
+          <span>+</span>
+          <hr>
+      </div>
+      <div id="accordion_body">
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Fuga harum ad eligendi possimus sapiente nulla illo dolore
+              laudantium rerum vero blanditiis amet, itaque explicabo
+              odio, quas, minus animi libero quis!
+          </p>
+      </div>
+  </article>
+  <article id="accordion_wrapper" data-aos="zoom-in-up">
+      <div id="accordion_head">
+          <h2 id="title">How can i become a property manager?</h2>
+          <span>+</span>
+          <hr>
+      </div>
+      <div id="accordion_body">
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Fuga harum ad eligendi possimus sapiente nulla illo dolore
+              laudantium rerum vero blanditiis amet, itaque explicabo
+              odio, quas, minus animi libero quis!
+          </p>
+      </div>
+  </article>
+</section>
+
+<section id="mission">
+    <p class="testi">Cokar Inc.</p><br><br>
+    <p class="missionTalk">
+      Cokar Properties is a forward-thinking real estate and property management brand built on 
+      professionalism, technology, and trust. We help property owners, investors, and tenants unlock real
+      value through intelligent property solutions.
+      By combining industry expertise with modern digital tools, 
+      we ensure every property is efficiently managed, marketed, and optimized for long-term growth. 
+    </p>
+  </section>
+
+<footer id="myfooter">
+      <article id="footerwrap">
+        <div class="footerinfo1">
+             <p class="testi"> WHY US</p><br>
+             <p><a href="">Flat-Sharing</a></p><br>
+             <p><a href="">Co-office Space</a></p><br>
+             <p><a href="">Monthly Payments</a></p><br>
+             <p><a href="">Accomodation Loans</a></p><br>
+        </div>
+        <div class="footerinfo2">
+          <p class="testi"> COMPANY</p><br>
+             <p><a href="">About us</a></p><br>
+             <p><a href="">FAQs</a></p><br>
+             <p><a href="">Careers</a></p><br>
+             <p><a href="">Partnerships</a></p><br>
+        </div>
+        </div>
+        <div class="footerinfo3">
+          <p class="testi"> GET IN TOUCH</p><br>
+             <p><a href="">cokarproperties@gmail.com</a></p><br>
+             <p><a href="">09169019241</a></p><br>
+             <p>236, Ikwerre Road beside Civic Centre, Mile 4 Rumueme Port-Harcourt,
+                Rivers State, Nigeria.
+            </p><br>
+        </div>
+        </div>
+      </article>
+      <hr>
+      <br><br>
+        <h2>@Cokar Inc, 2025.</h2><br><br>
+
+      <div class="icons">
+        <a href=""><img src="img/icons8-linkedin-50.png" alt=""></a><br>
+        <a href=""><img src="img/icons8-twitter-50[1].png" alt=""></a><br>
+        <a href=""><img src="img/icons8-facebook-50.png" alt=""></a><br>
+        <a href=""><img src="img/icons8-whatsapp.gif" alt=""></a>
+      </div>
+  </footer>
+
+
+
+  <script src="js/media.js"></script>
+
+
+  <script src="js/hero.js"></script>
+<script src="js/testimonial.js"></script>
+  <script src="js/moving.js"></script>
+  <script src="js/ai.js"></script>
+</body>
+</html>

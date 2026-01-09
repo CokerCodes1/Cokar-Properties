@@ -1,0 +1,144 @@
+:root {
+  --purple: #6a0dad;
+  --gold: #d4af37;
+  --glass-bg: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #2c003e, #12001c);
+  color: #fff;
+}
+
+.payout-page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem 5rem;
+}
+
+.payout-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--gold);
+}
+
+/* ITEMS */
+.payout-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.payout-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.payout-item img {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.payout-item h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.payout-item p {
+  margin: 0.2rem 0;
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.remove-btn {
+  margin-left: auto;
+  background: crimson;
+  color: #fff;
+  border: none;
+  padding: 0.45rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* SUMMARY */
+.payout-summary {
+  margin-top: 2rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+  padding: 1.5rem;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.summary-row.total {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--gold);
+}
+
+/* PAY BUTTON */
+.pay-btn {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, var(--purple), #8e44ad);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.pay-btn:hover {
+  opacity: 0.9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .payout-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .remove-btn {
+    margin-left: 0;
+  }
+}
+
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  padding: 0.55rem 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background: var(--gold);
+  color: #000;
+}

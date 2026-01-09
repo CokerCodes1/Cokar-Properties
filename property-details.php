@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Details</title>
+  <link rel="stylesheet" href="css/property-details.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+  <section id="dropdownBox" class="animate__animated">
+             <div id="exitIcon">X</div>
+
+             <ul id="navcon-mobile">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="listings.html">Listings</a></li>
+                <li><a href="marketplace.html">Marketplace</a></li>
+                <li><a href="about.html">About Us</a></li>
+
+              
+             </ul>
+    </section>
+  
+    <header id="myheader">
+        <nav id="mynav">
+            <div class="logo">
+                <a href="index.php">Cokar Properties</a>
+            </div>
+
+            <ul class="link1">
+                <li><a href="services.php">Services</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="marketplace.php">Marketplace</a></li>
+                <li><a href="about.php">About Us</a></li>
+            </ul>
+
+            <div class="bassey">
+            <button class="nav-btn"><a href="ai.php">Cokar AI</a></button>
+            </div>
+            <img src="img/icons8-drag-list-down-48[1].png" alt="hamburger" class="hamburger">
+        </nav>
+        <hr>
+    </header>
+
+<header>
+  <h1 id="property-title">Property Title</h1>
+</header>
+
+<main class="property-details">
+
+  <!-- IMAGE CAROUSEL -->
+  <div class="carousel swiper">
+    <div class="swiper-wrapper" id="property-images"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- FLOOR PLANS -->
+  <section class="floor-plans">
+    <h2>Floor Plans</h2>
+    <img id="floor-plan" src="" alt="Floor Plan">
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities">
+    <h2>Amenities</h2>
+    <ul id="amenities-list"></ul>
+  </section>
+
+  <!-- MAP -->
+  <section class="map">
+    <h2>Property Location</h2>
+    <iframe id="property-map" src="" width="100%" height="300" frameborder="0"></iframe>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="contact-agent">
+    <h2>Contact Agent</h2>
+      <button type="submit"><a href="" style="text-decoration: none; color: white;">Send Message</a></button>
+  </section>
+
+  <!-- VIRTUAL TOUR -->
+  <section class="virtual-tour">
+    <h2>Virtual Tour</h2>
+    <iframe id="virtual-tour" src="" width="100%" height="400" frameborder="0"></iframe>
+  </section>
+<div class="back-to-listings">
+    <a href="listings.php" class="back-btn">← Back to Listings</a>
+</div>
+
+
+
+<!-- FLOATING CONTACT BUTTONS -->
+<div class="floating-buttons">
+    <!-- WhatsApp Main Button -->
+    <div class="float-btn whatsapp-btn" id="whatsappMainBtn">
+        <span class="icon">💬</span>
+    </div>
+
+    <!-- Call Button -->
+    <a href="tel:+2348012345678" class="float-btn call-btn">
+        <span class="icon">📞</span>
+    </a>
+</div>
+
+<!-- WHATSAPP POPUP -->
+<div class="whatsapp-popup" id="whatsappPopup">
+    <div class="popup-header">
+        <span>Real Estate Support</span>
+        <button id="closePopup">✖</button>
+    </div>
+
+    <div class="popup-body">
+        <p>Hello 👋</p>
+        <p>How can we help you today?</p>
+
+        <a href="https://wa.me/2348012345678?text=Hello%2C%20I'm%20interested%20in%20one%20of%20your%20properties." 
+           target="_blank" 
+           class="chat-now-btn">
+            💬 Chat on WhatsApp
+        </a>
+    </div>
+</div>
+
+<script>
+    // Toggle popup
+    const mainBtn = document.getElementById("whatsappMainBtn");
+    const popup = document.getElementById("whatsappPopup");
+    const closePopup = document.getElementById("closePopup");
+
+    mainBtn.addEventListener("click", () => {
+        popup.classList.toggle("show");
+    });
+
+    closePopup.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+</script>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/property-details.js"></script>
+<script src="js/media.js"></script>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!-- ==========================
+     SERVICES PAGE (HTML)
+========================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cokar Properties – Services</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/services.css" />
+  <link rel="stylesheet" href="css/testimonial.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+  <!-- ==========================
+       NAVIGATION BAR
+  =========================== -->
+<section id="dropdownBox" class="animate__animated">
+             <div id="exitIcon">X</div>
+
+             <ul id="navcon-mobile">
+                <li><a href="services.php">Services</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="marketplace.php">Marketplace</a></li>
+                <li><a href="about.php">About Us</a></li>
+
+              
+             </ul>
+    </section>
+  
+    <header id="myheader">
+        <nav id="mynav">
+            <div class="logo">
+                <a href="index.php">Cokar Properties</a>
+            </div>
+
+            <ul class="link1">
+                <li><a href="services.php">Services</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="marketplace.php">Marketplace</a></li>
+                <li><a href="about.php">About Us</a></li>
+            </ul>
+
+            <div class="btn">
+            <button class="nav-btn"><a href="ai.php">Cokar AI</a></button>
+            </div>
+            <img src="img/icons8-drag-list-down-48[1].png" alt="hamburger" class="hamburger">
+        </nav>
+        <hr>
+    </header>
+
+ <!-- ==========================
+     HERO SECTION WITH HTML BACKGROUND IMAGE
+========================== -->
+<header class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-bg-wrapper">
+    <img src="img/african-american-lady-safety-helmet-eyeglasses-near-building-construction.jpg" class="hero-bg" alt="Hero Image">
+  </div>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-title">Professional Property Management</h1>
+    <p class="hero-subtitle">We manage, maintain and maximize real estate assets for property owners.</p>
+    <a href="#contact.php" class="hero-cta">Get Started</a>
+    
+  </div>
+  
+</header>
+
+  <!-- ==========================
+       CORE SERVICES SECTION
+  =========================== -->
+  <section id="services" class="services-section container">
+    <h2 class="section-title">Our Core Services</h2>
+
+    <div class="services-grid">
+
+      <div class="service-box fade-in">
+        <i class="ri-building-2-line service-icon"></i>
+        <h3>Property Management</h3>
+        <p>Our end-to-end property management solution is designed to take the stress off property owners by handling all operational, administrative, and tenant-related duties. We ensure smooth day-to-day operations while maximizing asset value.</p>
+        <ul>
+          <li>Comprehensive tenant relations & communication</li>
+          <li>Automated rent collection & financial reporting</li>
+          <li>Scheduled preventive & corrective maintenance</li>
+          <li>Lease enforcement and compliance monitoring</li>
+        </ul><br><br>
+        <a href="#" class="hero-cta">Learn More</a>
+      </div>
+
+      <div class="service-box fade-in delay-2">
+        <i class="ri-megaphone-line service-icon"></i>
+        <h3>Property Marketing</h3>
+        <p>We position your property for maximum visibility across digital platforms. Our marketing strategies are tailored to attract serious prospects and reduce vacancy periods significantly.</p>
+        <ul>
+          <li>Engaging property listings crafted for high conversion</li>
+          <li>Professional photography, videography & virtual tours</li>
+          <li>Targeted social media and PPC advertising campaigns</li>
+          <li>Listing optimization across major real estate platforms</li>
+        </ul><br><br>
+        <a href="#" class="hero-cta">Learn More</a>
+      </div>
+
+      <div class="service-box fade-in delay-4">
+        <i class="ri-tools-line service-icon"></i>
+        <h3>Facility Maintenance</h3>
+        <p>We ensure your property remains in top condition through structured maintenance management. Our team coordinates reliable technicians and contractors to guarantee consistent quality.</p>
+        <ul>
+          <li>24/7 repair management and emergency response</li>
+          <li>Routine inspections for safety and compliance</li>
+          <li>Cleaning, landscaping & facility upkeep schedules</li>
+          <li>Vendor coordination and supervision</li>
+        </ul><br><br>
+        <a href="#" class="hero-cta">Learn More</a>
+      </div>
+
+      <div class="service-box fade-in delay-6">
+        <i class="ri-lightbulb-line service-icon"></i>
+        <h3>Consultation</h3>
+        <p>Our consultancy service helps investors and property owners make informed decisions with accurate market insights and expert-level guidance.</p>
+        <ul>
+          <li>Property acquisition & due diligence support</li>
+          <li>Investment portfolio analysis & projections</li>
+          <li>Market trend forecasting & strategic planning</li>
+          <li>Risk evaluation & property valuation advisory</li>
+        </ul><br><br>
+        <a href="#" class="hero-cta">Learn More</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="properties-section" id="properties">
+  <h2 class="properties-title">Properties We Manage</h2>
+
+  <div class="properties-grid">
+
+    <!-- PROPERTY 1 -->
+    <div class="property-card">
+      <img src="img/house-8458547.jpg" class="property-img" alt="Lekki Apartment">
+      <h3 class="property-name">Luxury Apartment – Lekki Phase 1</h3>
+      <p class="property-short">Premium serviced apartment with waterfront access.</p>
+      <button class="property-btn" data-modal="prop-modal-1">View Details</button>
+    </div>
+
+    <!-- PROPERTY 2 -->
+    <div class="property-card">
+      <img src="img/house-8458547.jpg" class="property-img" alt="Ikeja Duplex">
+      <h3 class="property-name">5-Bedroom Detached Duplex – Ikeja GRA</h3>
+      <p class="property-short">High-end duplex with home automation and full security.</p>
+      <button class="property-btn" data-modal="prop-modal-2">View Details</button>
+    </div>
+
+    <!-- PROPERTY 3 -->
+    <div class="property-card">
+      <img src="img/house-8458547.jpg" class="property-img" alt="Office Yaba">
+      <h3 class="property-name">Commercial Office Space – Yaba</h3>
+      <p class="property-short">Fully serviced office ideal for startups & corporates.</p>
+      <button class="property-btn" data-modal="prop-modal-3">View Details</button>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ==================== PROPERTY MODALS ==================== -->
+
+<!-- MODAL 1 -->
+<div class="prop-modal" id="prop-modal-1">
+  <div class="prop-modal-box">
+    <span class="prop-close">&times;</span>
+
+    <h3>Luxury Apartment – Lekki Phase 1</h3>
+    <p>
+      Premium waterfront living with modern interior, facility management,
+      and 24/7 security. Perfect for professionals and families.
+    </p>
+
+    <div class="prop-slider">
+      <img src="img/house-8458547.jpg">
+      <img src="img/house-8458547.jpg">
+      <img src="img/house-8458547.jpg">
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 2 -->
+<div class="prop-modal" id="prop-modal-2">
+  <div class="prop-modal-box">
+    <span class="prop-close">&times;</span>
+
+    <h3>5-Bedroom Detached Duplex – Ikeja GRA</h3>
+    <p>
+      Spacious luxury with smart home systems, CCTV monitoring,
+      ample parking, and serene estate environment.
+    </p>
+
+    <div class="prop-slider">
+      <img src="img/house-8458547.jpg">
+      <img src="images/property2-2.jpg">
+      <img src="images/property2-3.jpg">
+    </div>
+  </div>
+</div>
+
+<!-- MODAL 3 -->
+<div class="prop-modal" id="prop-modal-3">
+  <div class="prop-modal-box">
+    <span class="prop-close">&times;</span>
+
+    <h3>Commercial Office Space – Yaba</h3>
+    <p>
+      Serviced office building with fiber internet, boardrooms,
+      generator backup, and flexible space options.
+    </p>
+
+    <div class="prop-slider">
+      <img src="images/property3-1.jpg">
+      <img src="images/property3-2.jpg">
+      <img src="images/property3-3.jpg">
+    </div>
+  </div>
+</div>
+
+
+  <!-- ==========================
+       WHY CHOOSE US
+  =========================== -->
+  <section class="why-section container">
+    <h2 class="section-title">Why Choose Us</h2>
+
+    <div class="why-grid">
+      <div class="why-box fade-in">
+        <i class="ri-shield-check-line why-icon"></i>
+        <h3>Trusted & Reliable</h3>
+        <p>We offer transparent reporting with secure systems trusted by property owners.</p>
+      </div>
+
+      <div class="why-box fade-in delay-2">
+        <i class="ri-user-star-line why-icon"></i>
+        <h3>Experienced Team</h3>
+        <p>Highly trained property and facility managers with years of field experience.</p>
+      </div>
+
+      <div class="why-box fade-in delay-4">
+        <i class="ri-check-double-line why-icon"></i>
+        <h3>Guaranteed Service</h3>
+        <p>We ensure satisfaction through consistent performance and quality assurance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================
+       TESTIMONIAL SECTION
+  =========================== -->
+  <!-- ==========================
+     TESTIMONIAL SECTION (NEW)
+========================== -->
+<div class="my-testimonial-slider">
+  <center>
+    <h3 style="color: #6a0dad;">What happy Clients have to say about Sheltar</h3>
+  </center>
+  <div class="mts-slides">
+    <!-- Slide 1 -->
+    <div class="mts-slide" data-index="0">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 1">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“I couldn’t be happier with my new home! From viewing to move-in, everything was smooth, stress-free, and the landlord was always responsive whenever I had a question. The place is well maintained, clean, and exactly as described. Highly recommend to anyone looking for a hassle-free renting experience”</p>
+          <div class="mts-star-rating">★★★★☆</div>
+          <div class="mts-client-name">Client 1</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="mts-slide" data-index="1">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 2">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 2.”</p>
+          <div class="mts-star-rating">★★★★★</div>
+          <div class="mts-client-name">Client 2</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="mts-slide" data-index="2">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 3">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 3.”</p>
+          <div class="mts-star-rating">★★★☆☆</div>
+          <div class="mts-client-name">Client 3</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 4 -->
+    <div class="mts-slide" data-index="3">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 4">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 4.”</p>
+          <div class="mts-star-rating">★★★★☆</div>
+          <div class="mts-client-name">Client 4</div>
+        </div>
+      </div>
+    </div>
+    <!-- Slide 5 -->
+    <div class="mts-slide" data-index="4">
+      <div class="mts-slide-content">
+        <div class="mts-image-wrapper">
+          <img src="img/house-8458547.jpg" alt="Client 5">
+        </div>
+        <div class="mts-text-wrapper">
+          <p class="mts-testimonial-text">“Testimonial text for client 5.”</p>
+          <div class="mts-star-rating">★★★★★</div>
+          <div class="mts-client-name">Client 5</div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <button class="mts-control mts-control-prev" aria-label="Previous testimonial">&lt;</button>
+  <button class="mts-control mts-control-next" aria-label="Next testimonial">&gt;</button>
+</div>
+
+<footer id="myfooter">
+      <article id="footerwrap">
+        <div class="footerinfo1">
+             <p class="testi"> WHY US</p><br>
+             <p><a href="">Flat-Sharing</a></p><br>
+             <p><a href="">Co-office Space</a></p><br>
+             <p><a href="">Monthly Payments</a></p><br>
+             <p><a href="">Accomodation Loans</a></p><br>
+        </div>
+        <div class="footerinfo2">
+          <p class="testi"> COMPANY</p><br>
+             <p><a href="">About us</a></p><br>
+             <p><a href="">FAQs</a></p><br>
+             <p><a href="">Careers</a></p><br>
+             <p><a href="">Partnerships</a></p><br>
+        </div>
+        </div>
+        <div class="footerinfo3">
+          <p class="testi"> GET IN TOUCH</p><br>
+             <p><a href="">cokarproperties@gmail.com</a></p><br>
+             <p><a href="">09169019241</a></p><br>
+             <p>236, Ikwerre Road beside Civic Centre, Mile 4 Rumueme Port-Harcourt,
+                Rivers State, Nigeria.
+            </p><br>
+        </div>
+        </div>
+      </article>
+      <hr>
+      <br><br>
+        <h2>@Cokar Properties Inc, 2025.</h2><br><br>
+
+      <div class="icons">
+        <a href=""><img src="img/icons8-linkedin-50.png" alt=""></a><br>
+        <a href=""><img src="img/icons8-twitter-50[1].png" alt=""></a><br>
+        <a href=""><img src="img/icons8-facebook-50.png" alt=""></a><br>
+        <a href=""><img src="img/icons8-whatsapp.gif" alt=""></a>
+      </div>
+  </footer>
+  <!-- ==========================
+       EXTERNAL JS
+  =========================== -->
+  <script src="js/media.js"></script>
+  <script src="js/testimonial.js"></script>
+  <script src="js/services.js"></script>
+
+
+
+   <!-- FLOATING CONTACT BUTTONS -->
+<div class="floating-buttons">
+    <!-- WhatsApp Main Button -->
+    <div class="float-btn whatsapp-btn" id="whatsappMainBtn">
+        <span class="icon">💬</span>
+    </div>
+
+    <!-- Call Button -->
+    <a href="tel:+2348012345678" class="float-btn call-btn">
+        <span class="icon">📞</span>
+    </a>
+</div>
+
+<!-- WHATSAPP POPUP -->
+<div class="whatsapp-popup" id="whatsappPopup">
+    <div class="popup-header">
+        <span>Real Estate Support</span>
+        <button id="closePopup">✖</button>
+    </div>
+
+    <div class="popup-body">
+        <p>Hello 👋</p>
+        <p>How can we help you today?</p>
+
+        <a href="https://wa.me/2348012345678?text=Hello%2C%20I'm%20interested%20in%20one%20of%20your%20properties." 
+           target="_blank" 
+           class="chat-now-btn">
+            💬 Chat on WhatsApp
+        </a>
+    </div>
+</div>
+
+<script>
+    // Toggle popup
+    const mainBtn = document.getElementById("whatsappMainBtn");
+    const popup = document.getElementById("whatsappPopup");
+    const closePopup = document.getElementById("closePopup");
+
+    mainBtn.addEventListener("click", () => {
+        popup.classList.toggle("show");
+    });
+
+    closePopup.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+</script>
+
+</body>
+</html>
+
+</body>
+</html>

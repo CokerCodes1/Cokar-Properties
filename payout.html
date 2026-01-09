@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cokar Marketplace | Payout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/payout.css">
+</head>
+<body>
+
+  <main class="payout-page">
+
+    <h1 class="payout-title">Checkout Summary</h1>
+
+    <button class="back-btn" id="backToMarketplace">
+  <i class="fa-solid fa-arrow-left"></i> Back to Marketplace
+</button>
+
+
+    <!-- CART ITEMS -->
+    <div class="payout-items" id="payoutItems"></div>
+
+    <!-- SUMMARY -->
+    <div class="payout-summary">
+      <div class="summary-row">
+        <span>Total Items</span>
+        <span id="totalItems">0</span>
+      </div>
+
+      <div class="summary-row total">
+        <span>Total Price</span>
+        <span id="totalPrice">₦0</span>
+      </div>
+
+      <button class="pay-btn">
+        <i class="fa-solid fa-lock"></i> Proceed to Payment
+      </button>
+    </div>
+
+  </main>
+
+  <script src="js/payout.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cokar AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/ai.css">
+</head>
+<body>
+
+<section class="ai-hero">
+
+  <!-- VIDEO BACKGROUND -->
+  <video class="ai-video-bg" autoplay muted loop playsinline>
+    <source src="video/258750_tiny.mp4" type="video/mp4">
+  </video>
+
+  <div class="ai-overlay"></div>
+
+  <div class="ai-container glass">
+
+    <!-- HERO -->
+    <h1 class="ai-title">Cokar AI</h1>
+    <p class="ai-subtitle">
+      Building Africa’s most intelligent AI-powered real estate and property
+      intelligence ecosystem.
+    </p>
+    <p class="ai-subtitle">
+      Under Heavy Development by Expert Engineers.
+    </p>
+
+    <!-- COUNTDOWN -->
+    <div class="ai-countdown glass">
+      <h3>🚀 AI Launch Countdown</h3>
+      <div class="countdown-grid">
+        <div><span id="days">00</span><small>Days</small></div>
+        <div><span id="hours">00</span><small>Hours</small></div>
+        <div><span id="minutes">00</span><small>Minutes</small></div>
+        <div><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+    </div>
+
+    <!-- AI FEATURES -->
+    <div class="ai-features">
+
+      <div class="ai-card"><i class="fa-solid fa-chart-line"></i>
+        <h4>AI Property Analytics</h4>
+        <p>Market intelligence, pricing predictions and yield optimization.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-robot"></i>
+        <h4>Automated Management</h4>
+        <p>AI handles tenants, rent, maintenance and workflows.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-map-location-dot"></i>
+        <h4>Location Intelligence</h4>
+        <p>Data-driven identification of high-growth areas.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-lightbulb"></i>
+        <h4>AI Advisors</h4>
+        <p>Personalized AI assistants for buyers and investors.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-magnifying-glass-chart"></i>
+        <h4>Investment Forecasting</h4>
+        <p>Predictive value appreciation & risk scoring.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-house-signal"></i>
+        <h4>Smart Home AI</h4>
+        <p>Integrated AI-powered automation & IoT.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-bolt"></i>
+        <h4>Energy Optimization</h4>
+        <p>AI reduces energy waste & operational costs.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-users-gear"></i>
+        <h4>Tenant Sentiment AI</h4>
+        <p>Retention optimization through AI analysis.</p>
+      </div>
+
+      <div class="ai-card"><i class="fa-solid fa-broom"></i>
+        <h4>Cleaning & Maintenance Bots</h4>
+        <p>Autonomous AI facility & cleaning systems.</p>
+      </div>
+
+    </div>
+
+    <!-- INVESTOR PITCH -->
+    <div class="investor glass">
+      <h2>💼 Investor Overview</h2>
+
+      <div class="investor-grid">
+        <div>
+          <h4>🚨 The Problem</h4>
+          <p>
+            Africa’s real estate sector lacks intelligent decision tools,
+            transparency, automation and predictive analytics.
+          </p>
+        </div>
+
+        <div>
+          <h4>💡 Our Solution</h4>
+          <p>
+            A unified AI platform combining analytics, automation, forecasting
+            and smart property management.
+          </p>
+        </div>
+
+        <div>
+          <h4>📈 Market Opportunity</h4>
+          <p>
+            PropTech + AI is projected to exceed $90B globally. Africa remains
+            largely untapped.
+          </p>
+        </div>
+
+        <div>
+          <h4>🛡 Competitive Moat</h4>
+          <p>
+            Proprietary AI models, localized datasets and full-stack ecosystem.
+          </p>
+        </div>
+
+        <div>
+          <h4>💰 Revenue Streams</h4>
+          <p>
+            SaaS subscriptions, transaction fees, enterprise licensing,
+            AI insights marketplace.
+          </p>
+        </div>
+
+        <div>
+          <h4>🗺 Roadmap</h4>
+          <p>
+            2025: MVP • 2026: Scale • 2027: AI Marketplace & Expansion
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EMAIL NOTIFY -->
+    <div class="notify glass">
+      <h3>📩 Get Notified at Launch</h3>
+      <form id="notifyForm">
+        <input type="email" id="notifyEmail"
+          placeholder="Enter your email" required>
+        <button type="submit">Notify Me</button>
+      </form>
+      <p id="notifyMsg"></p>
+    </div>
+
+    <!-- CTA -->
+    <div class="ai-buttons">
+      <a class="btn-primary bounce">Investor Deck Coming Soon</a>
+      <button class="btn-secondary" onclick="history.back()">
+        <i class="fa-solid fa-arrow-left"></i> Back
+      </button>
+    </div>
+
+  </div>
+
+  <!-- FLOATING BUTTONS -->
+  <a href="https://wa.me/234XXXXXXXXXX"
+     class="float whatsapp" target="_blank">
+    <i class="fa-brands fa-whatsapp">Chat</i>
+  </a>
+
+  <a href="tel:+234XXXXXXXXXX" class="float phone">
+    <i class="fa-solid fa-phone">Call</i>
+  </a>
+
+</section>
+
+<script src="js/ai.js"></script>
+</body>
+</html>

@@ -30,7 +30,8 @@ function renderJustListed() {
       <div class="property-content">
         <h3>${prop.title}</h3>
         <p class="property-price">${prop.price}</p>
-        <a href="property-details.html?id=${prop.id}" class="property-cta">View Details</a>
+        <a href="property-details.php?id=${prop.id}" class="property-cta">View Details</a>
+        <a href="" class="property-cta">Rent Now</a>
       </div>
     `;
     grid.appendChild(card);
