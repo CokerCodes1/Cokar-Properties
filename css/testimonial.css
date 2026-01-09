@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: inherit;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     list-style-type: none;
   }
 
 .my-testimonial-slider {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   font-size: 2rem;
   position: relative;
   overflow: hidden;
@@ -21,7 +21,7 @@
 
 /* slides container */
 .my-testimonial-slider .mts-slides {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   display: flex;
   transition: transform 0.6s ease;
   will-change: transform;
@@ -29,7 +29,7 @@
 
 /* each slide */
 .my-testimonial-slider .mts-slide {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   flex-shrink: 0;
   width: 100%;
   padding: 20px;
@@ -61,7 +61,7 @@
 }
 
 .my-testimonial-slider .mts-testimonial-text {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   font-size: 1.5rem;
   color: #333;
   margin-bottom: 8px;
@@ -74,9 +74,9 @@
 }
 
 .my-testimonial-slider .mts-client-name {
-  font-weight: bold;
+  font-weight: 600;
   color: #6a0dad !important;
-}
+} 
 
 /* Controls (prev / next) */
 .my-testimonial-slider .mts-control {

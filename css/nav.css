@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: inherit;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     list-style-type: none;
 }
 .hamburger{
@@ -57,10 +57,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     font-size: xx-large;
     border-radius: 5px;
-}
+} 
 
 #myheader{
     width: 100%;
@@ -73,13 +73,14 @@
 #mynav{
     width: 95%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* prevent items from centering and wrapping */
     align-items: center;
     margin: auto;
+    gap: 12px;
 }
 .logo{
-    width: auto;
-    margin: 1%;
+    flex: 0 0 auto; /* prevent logo from growing */
+    margin: 0 12px 0 0;
 }
 .logo a{
     display: inline-flex;
@@ -88,9 +89,25 @@
 }
 .logo a img.site-logo{
     max-height: 64px; /* balanced desktop size to avoid layout shifts */
+    max-width: 180px; /* cap width to avoid stretching */
     height: auto;
     width: auto;
     display: block;
+}
+.link1{
+    flex: 1 1 auto; /* allow links to take remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bassey{
+    flex: 0 0 auto; /* keep CTA area sized to content */
+    width: auto;
+    margin-left: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #mynav {
     padding: 8px 0; /* reduce header vertical spacing */

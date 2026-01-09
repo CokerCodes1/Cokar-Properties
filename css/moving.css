@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: inherit;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     list-style-type: none;
   }
   #moving {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     background: white;
     display: flex;
     align-items: center;

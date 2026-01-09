@@ -93,9 +93,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
-}
+} 
 #popcan1{
     width: 50%;
     height: 50%;
@@ -122,9 +122,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
-}
+} 
 #popcan2{
     width: 50%;
     height: 50%;
@@ -151,9 +151,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
-}
+} 
 #popcan3{
     width: 50%;
     height: 50%;
@@ -180,9 +180,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 5px;
-}
+} 
 .icons{
     display: flex;
     width: 40%;
