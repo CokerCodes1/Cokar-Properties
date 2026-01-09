@@ -78,14 +78,27 @@
     margin: auto;
 }
 .logo{
-    width: 15%;
+    width: auto;
     margin: 1%;
 }
 .logo a{
-    font-size: 2rem;
-    font-weight: bolder;
-    color: #6a0dad;
+    display: inline-block;
     text-decoration: none;
+}
+.logo a img.site-logo{
+    max-height: 100px; /* set to requested size */
+    width: auto;
+    display: block;
+}
+@media (max-width: 900px) {
+  .logo a img.site-logo{
+    max-height: 80px; /* tablet */
+  }
+}
+@media (max-width: 480px) {
+  .logo a img.site-logo{
+    max-height: 64px; /* mobile */
+  }
 }
 .link1{
     width: 50%;
